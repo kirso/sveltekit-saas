@@ -17,7 +17,7 @@
 			}`}
 		>
 			<svelte:element this={pageTitleElement} class="inline-block"
-				>Sveltify</svelte:element
+				>100xify</svelte:element
 			></a
 		>
 		<div class="flex gap-4">

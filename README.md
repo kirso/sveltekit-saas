@@ -1,4 +1,4 @@
-# Sveltify
+# 100xify
 
 ![E2E](https://github.com/kirso/sveltekit-saas/actions/workflows/playwright.yaml/badge.svg)
 
@@ -10,4 +10,8 @@ This app is used as the demo for Johnny's [](https://www.youtube.com/watch?v=suu
 
 ### How to use this repo as your "starter"
 
-Details go here, things like searching for Sveltify
+Details go here, things like searching for 100xify
+
+## Update environment variables
+
+You may use `.env.example` to create your own `.env.local` & `.env.files`

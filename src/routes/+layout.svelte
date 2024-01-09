@@ -8,13 +8,13 @@
 	import Footer from './Footer.svelte'
 
 	const defaultMeta = {
-		title: 'Sveltify',
+		title: '100xify',
 		description: 'Your best friend for getting bigger offers',
 		ogImageUrl: '/og.png',
 	}
 
 	$: title = $page.data.meta?.title
-		? `${$page.data.meta?.title} 🚀 Sveltify`
+		? `${$page.data.meta?.title} 🚀 100xify`
 		: defaultMeta.title
 	$: description = $page.data.meta?.description ?? defaultMeta.description
 	$: ogImageUrl = `${$page.url.origin}${
