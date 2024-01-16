@@ -4,7 +4,7 @@
 
 A modern SaaS app with Sveltekit
 
-### Learning Content
+## Learning Content
 
 This app is used as the demo for Johnny's [](https://www.youtube.com/watch?v=suuxXrMs5P4) YouTube video tutorial. Learn how this app was made, and how to do awesome List -> Detail animations!
 

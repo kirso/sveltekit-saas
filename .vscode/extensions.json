@@ -7,6 +7,7 @@
 		"github.vscode-github-actions",
 		"mikestead.dotenv",
 		"ms-playwright.playwright",
-		"svelte.svelte-vscode"
+		"svelte.svelte-vscode",
+		"sourcegraph.cody-ai"
 	]
 }

@@ -1,3 +1,4 @@
+import SupabaseClient, {type Session} from '@supabase/supabase-js'
 declare global {
 	// fresh API just dropped, let's extend Document
 	interface Document {
@@ -15,10 +16,10 @@ declare global {
 
 	namespace App {
 		// interface Error {}
-		// interface Locals {
-		// 	gamesRepo: GamesRepo
-		// 	tierListsRepo: TierListsRepo
-		// }
+		interface Locals {
+			supabase: SupabaseClient
+			getSession: () => Promise<Session | null>
+		}
 		// interface PageData {}
 		// interface Platform {}
 	}
